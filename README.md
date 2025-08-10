@@ -26,9 +26,9 @@ The main goal is to quantify how much exchange rates move, on average, when glob
 ### 4. Econometric Analysis
 Running OLS regressions for each currency:
 
-\[
+$$
 \Delta \log(FX) = \alpha + \beta \, \Delta \log(VIX) + \epsilon
-\]
+$$
 
 - **β** is interpreted as the % change in FX for a 1% change in VIX.
 - Statistical significance, R² values, and confidence intervals are reported.
